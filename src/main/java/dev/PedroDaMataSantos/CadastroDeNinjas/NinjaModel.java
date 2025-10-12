@@ -12,12 +12,9 @@ public class NinjaModel {
     @Column
     private Long id;
 
-    @Column
      private String nome;
-    @Column
      private String email;
-    @Column
-    private int idade;
+     private int idade;
 
 
     public NinjaModel() {

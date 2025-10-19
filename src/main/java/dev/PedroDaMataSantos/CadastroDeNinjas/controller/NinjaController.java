@@ -1,4 +1,4 @@
-package dev.PedroDaMataSantos.CadastroDeNinjas;
+package dev.PedroDaMataSantos.CadastroDeNinjas.controller;
 
 import org.springframework.web.bind.annotation.*;
 

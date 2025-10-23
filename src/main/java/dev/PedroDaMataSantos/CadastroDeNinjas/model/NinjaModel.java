@@ -17,9 +17,13 @@ public class NinjaModel {
     private Long id;
 
      private String nome;
+
      private String email;
+
      private int idade;
-     private List<MissoesModel> missoes;
+
+     @ManyToOne
+     private MissoesModel  missoes;
 
 
     public NinjaModel() {

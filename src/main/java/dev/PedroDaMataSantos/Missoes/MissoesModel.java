@@ -4,7 +4,7 @@ import dev.PedroDaMataSantos.CadastroDeNinjas.model.NinjaModel;
 import jakarta.persistence.*;
 
 import java.util.List;
-
+//No lombok class
 @Entity
 @Table(name = "tb_missoes")
 public class MissoesModel {
@@ -18,7 +18,7 @@ public class MissoesModel {
 
     private Integer dificuldade;
 
-    @OneToMany
+    @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninja;
 
     public MissoesModel() {
